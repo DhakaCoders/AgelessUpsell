@@ -118,6 +118,27 @@ img {
 .show-xs {
   display: none!important
 }
+.inline-bg{
+  background-position: center center!important;
+  background-size: cover!important;
+  background-repeat: no-repeat!important;
+}
+.text-center{
+  text-align: center;
+}
+.color-blue{
+  color: #004370;
+}
+.bg-blue{
+  background-color: #004370;
+}
+.bg-green{
+  background-color: #00b80d;
+}
+.color-green{
+  color: #00b80d;
+}
+
 p { margin: 0; margin-bottom: 30px; line-height: 1.2}
 a { word-wrap: break-word } 
 strong,b { font-family: 'SupriaSans-Bold'; }
