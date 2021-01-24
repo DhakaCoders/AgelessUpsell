@@ -186,6 +186,7 @@ h5{
   margin-top: 0;
   line-height: 1.2;
   font-family: 'PTSerif-Bold';
+  text-transform: uppercase;
 } 
 
 @media(max-width: 1199px){
