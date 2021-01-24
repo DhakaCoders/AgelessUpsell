@@ -1,101 +1,41 @@
-
 @font-face {
-  font-family: 'Barlow-SemiBold';
-  src: url('assets/fonts/Barlow-SemiBold/Barlow-SemiBold.woff2') format('woff2'),
-    url('assets/fonts/Barlow-SemiBold/Barlow-SemiBold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'PTSerif-Bold';
+    src: url('assets/fonts/PTSerif-Bold/PTSerif-Bold.woff2') format('woff2'),
+        url('assets/fonts/PTSerif-Bold/PTSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 
 @font-face {
-  font-family: 'Barlow-Bold';
-  src: url('assets/fonts/Barlow-Bold/Barlow-Bold.woff2') format('woff2'),
-    url('assets/fonts/Barlow-Bold/Barlow-Bold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Barlow-ExtraBold';
-  src: url('assets/fonts/Barlow-ExtraBold/Barlow-ExtraBold.woff2') format('woff2'),
-    url('assets/fonts/Barlow-ExtraBold/Barlow-ExtraBold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-
-
-@font-face {
-  font-family: 'BarlowCondensed-Regular';
-  src: url('assets/fonts/BarlowCondensed-Regular/BarlowCondensed-Regular.woff2') format('woff2'),
-    url('assets/fonts/BarlowCondensed-Regular/BarlowCondensed-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'BarlowCondensed-Bold';
-  src: url('assets/fonts/BarlowCondensed-BoldBarlowCondensed-Bold.woff2') format('woff2'),
-    url('assets/fonts/BarlowCondensed-BoldBarlowCondensed-Bold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'SupriaSans-Regular';
+    src: url('assets/fonts/SupriaSans-Regular/SupriaSans-Regular.woff2') format('woff2'),
+        url('assets/fonts/SupriaSans-Regular/SupriaSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 
 @font-face {
-  font-family: 'BarlowCondensed-SemiBold';
-  src: url('assets/fonts/BarlowCondensed-SemiBold/BarlowCondensed-SemiBold.woff2') format('woff2'),
-    url('assets/fonts/BarlowCondensed-SemiBold/BarlowCondensed-SemiBold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'LatoRegular';
-  src: url('assets/fonts/LatoRegular/LatoRegular.woff2') format('woff2'),
-    url('assets/fonts/LatoRegular/LatoRegular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'LatoLight';
-  src: url('assets/fonts/LatoLight/LatoLight.woff2') format('woff2'),
-    url('assets/fonts/LatoLight/LatoLight.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'SupriaSans-Bold';
+    src: url('assets/fonts/SupriaSans-Bold/SupriaSans-Bold.woff2') format('woff2'),
+        url('assets/fonts/SupriaSans-Bold/SupriaSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 
 @font-face {
-  font-family: 'LatoBold';
-  src: url('assets/fonts/LatoBold/LatoBold.woff2') format('woff2'),
-    url('assets/fonts/LatoBold/LatoBold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'SupriaSans-Heavy';
+    src: url('assets/fonts/SupriaSans-Heavy/SupriaSans-Heavy.woff2') format('woff2'),
+        url('assets/fonts/SupriaSans-Heavy/SupriaSans-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
 }
-
-@font-face {
-  font-family: 'LatoSemibold';
-  src: url('assets/fonts/LatoSemibold/LatoSemibold.woff2') format('woff2'),
-    url('assets/fonts/LatoSemibold/LatoSemibold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-
-
 
 
 
@@ -116,10 +56,10 @@ a,a:hover,a:focus,button:hover,button:focus {
 }
 body {
   background-color: #fff;
-  color: #000;
-  font-size: 25px;
-  line-height: 1.2;
-    font-family: 'LatoLight';
+  color: #323232;
+  font-size: 24px;
+  line-height: 29px;
+  font-family: 'SupriaSans-Regular';
   background: url(assets/images/body-bg.jpg);
 }
 img {
@@ -139,8 +79,24 @@ img {
   bottom: 0;
   z-index: 10;
 }
+
+.fl-page-bdy-controller{
+  max-width: 1175px;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  margin-top: 32px;
+  position: relative;
+}
+
+.container-sm{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .container {
-  max-width: 1205px;
+  max-width: 1145px;
   width: 100%;
 }
 .hide-md {
@@ -162,9 +118,12 @@ img {
 .show-xs {
   display: none!important
 }
-p { margin: 0; margin-bottom: 30px; }
+p { margin: 0; margin-bottom: 30px; line-height: 1.2}
 a { word-wrap: break-word } 
-strong { font-weight:normal }
+strong,b { font-family: 'SupriaSans-Bold'; }
+u{
+  text-decoration: underline;
+}
 .plr-30 {
   padding-left: 30px!important;
   padding-right: 30px!important
@@ -187,21 +146,25 @@ strong { font-weight:normal }
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 68px;
 }
 h2 {
-  font-size: 40px;
+  font-size: 60px;
 }
 h3 {
-  font-size: 26px;
+  font-size: 48px;
 }
 h4 {
+  font-size: 34px;
+}
+h5{
   font-size: 20px;
 }
 
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
   margin-top: 0;
   line-height: 1.2;
+  font-family: 'PTSerif-Bold';
 } 
 
 @media(max-width: 1199px){

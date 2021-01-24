@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'BarlowCondensed-SemiBold';
-    src: url('BarlowCondensed-SemiBold/BarlowCondensed-SemiBold.woff2') format('woff2'),
-        url('BarlowCondensed-SemiBold/BarlowCondensed-SemiBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-

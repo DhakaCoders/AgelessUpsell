@@ -1,76 +1,40 @@
 @font-face {
-  font-family: 'Barlow-Bold';
-  src: url('assets/fonts/Barlow-Bold/Barlow-Bold.woff2') format('woff2'),
-    url('assets/fonts/Barlow-Bold/Barlow-Bold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Barlow-ExtraBold';
-  src: url('assets/fonts/Barlow-ExtraBold/Barlow-ExtraBold.woff2') format('woff2'),
-    url('assets/fonts/Barlow-ExtraBold/Barlow-ExtraBold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'BarlowCondensed-Bold';
-  src: url('assets/fonts/BarlowCondensed-Bold/BarlowCondensed-Bold.woff2') format('woff2'),
-    url('assets/fonts/BarlowCondensed-Bold/BarlowCondensed-Bold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'PTSerif-Bold';
+    src: url('assets/fonts/PTSerif-Bold/PTSerif-Bold.woff2') format('woff2'),
+        url('assets/fonts/PTSerif-Bold/PTSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 
 @font-face {
-  font-family: 'BarlowCondensed-SemiBold';
-  src: url('assets/fonts/BarlowCondensed-SemiBold/BarlowCondensed-SemiBold.woff2') format('woff2'),
-    url('assets/fonts/BarlowCondensed-SemiBold/BarlowCondensed-SemiBold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'LatoRegular';
-  src: url('assets/fonts/LatoRegular/LatoRegular.woff2') format('woff2'),
-    url('assets/fonts/LatoRegular/LatoRegular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'SupriaSans-Regular';
+    src: url('assets/fonts/SupriaSans-Regular/SupriaSans-Regular.woff2') format('woff2'),
+        url('assets/fonts/SupriaSans-Regular/SupriaSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 
 @font-face {
-  font-family: 'LatoLight';
-  src: url('assets/fonts/LatoLight/LatoLight.woff2') format('woff2'),
-    url('assets/fonts/LatoLight/LatoLight.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'SupriaSans-Bold';
+    src: url('assets/fonts/SupriaSans-Bold/SupriaSans-Bold.woff2') format('woff2'),
+        url('assets/fonts/SupriaSans-Bold/SupriaSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 
 @font-face {
-  font-family: 'LatoBold';
-  src: url('assets/fonts/LatoBold/LatoBold.woff2') format('woff2'),
-    url('assets/fonts/LatoBold/LatoBold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'LatoSemibold';
-  src: url('assets/fonts/LatoSemibold/LatoSemibold.woff2') format('woff2'),
-    url('assets/fonts/LatoSemibold/LatoSemibold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'SupriaSans-Heavy';
+    src: url('assets/fonts/SupriaSans-Heavy/SupriaSans-Heavy.woff2') format('woff2'),
+        url('assets/fonts/SupriaSans-Heavy/SupriaSans-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
 }
 
 
