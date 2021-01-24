@@ -81,7 +81,7 @@ img {
 }
 
 .fl-page-bdy-controller{
-  max-width: 1175px;
+  max-width: 1145px;
   width: 100%;
   margin: 0 auto;
   background: #fff;
@@ -96,7 +96,7 @@ img {
 }
 
 .container {
-  max-width: 1145px;
+  max-width: 1115px;
   width: 100%;
 }
 .hide-md {
@@ -196,21 +196,7 @@ h5{
     .show-md{
       display: block!important;
     }
-    h1{
-      font-size: 40px;
-    }
-    h2{
-      font-size: 35px;
-    }
-    h3 {
-      font-size: 26px;
-    }
-    h4 {
-      font-size: 20px;
-    }
-    p br{
-      display: none;
-    }
+    
 }
 @media(max-width: 991px){
     .hide-sm{
@@ -220,20 +206,18 @@ h5{
         display: block!important;
     }
     h1{
-      font-size: 35px;
+      font-size: 62px;
     }
     h2{
-      font-size: 30px;
+      font-size: 55px;
     }
     h3 {
-      font-size: 26px;
+      font-size: 42px;
     }
     h4 {
-      font-size: 20px;
+      font-size: 32px;
     }
-    p br{
-        display: none;
-    }
+    
 }
 
 
@@ -251,16 +235,35 @@ h5{
        margin-bottom: 20px;
     }
     h1{
-      font-size: 32px;
+      font-size: 56px;
     }
     h2{
-      font-size: 28px;
+      font-size: 50px;
     }
     h3 {
-      font-size: 25px;
+      font-size: 38px;
     }
     h4 {
-      font-size: 20px;
+      font-size: 30px;
+    }
+    br, 
+    p br{
+      display: none;
     }
 
+}
+
+@media(max-width: 575px){
+    h1{
+      font-size: 50px;
+    }
+    h2{
+      font-size: 45px;
+    }
+    h3 {
+      font-size: 34px;
+    }
+    h4 {
+      font-size: 28px;
+    }
 }
