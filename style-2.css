@@ -54,6 +54,8 @@ span.checkmark:after{
     transform: rotate(45deg);
     content: "";
     position: absolute;
+    opacity: 0;
+    visibility: hidden;
 
 }
 .agus-pro-item-img{
@@ -122,4 +124,44 @@ span.checkmark:after{
 	font-family: 'SupriaSans-Bold';
 	padding: 27px 55px;
 	text-transform: uppercase;
+}
+
+
+
+
+.agus-pro-btn-ctlr input[type=submit]{
+	background: #00b80d;
+	color: #fff;
+	width: 412px;
+	height: 98px;
+	border: 2px solid #00b80d;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	font-size: 30px;
+	font-family: 'SupriaSans-Bold';
+}
+
+.agus-pro-btn-ctlr input[type=checkbox]{
+	opacity: 0;
+	visibility: hidden;
+	z-index: -1;
+}
+
+.agus-pro-item.thisActive{
+	border-color: #0089c3;
+} 
+.thisActive span.pro-hl-btn{
+	background: #1daae7;
+}
+.thisActive span.checkmark{
+	border-color: #0089c3;
+}
+.thisActive span.checkmark:after{
+	visibility: visible;
+	opacity: 1;
 }

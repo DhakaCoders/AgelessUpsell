@@ -55,6 +55,15 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Arialregular';
+    src: url('assets/fonts/Arialregular/Arialregular.woff2') format('woff2'),
+        url('assets/fonts/Arialregular/Arialregular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 
 *,*:focus,.btn,.btn:focus {
@@ -107,15 +116,16 @@ img {
   position: relative;
 }
 
+
+
+.container {
+  max-width: 1175px;
+  width: 100%;
+}
 .container-sm{
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
-}
-
-.container {
-  max-width: 1115px;
-  width: 100%;
 }
 .hide-md {
   display: block!important

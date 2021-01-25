@@ -67,22 +67,26 @@ header.fl-hdr{
 .ftr-menu ul li a{
 	color: #fff;
 	font-size: 18px;
-	font-family: 'HelveticaNeueCyr-Light';
+	font-family: 'Arialregular';
 }
 .ftr-menu ul li a:hover{
 	color: #0c81a7;
 }
 
+.ftr-des{
+	padding-left: 10px;
+	padding-right: 10px;
+}
 .ftr-des p{
-	font-size: 15px;
+	font-size: 16px;
 	color: #fff;
-	font-family: 'HelveticaNeueCyr-Light';
+	font-family: 'Arialregular';
 	line-height: 1.4;
 }
 
 .ftr-copywrite p{
 	color: #fff;
-	font-size: 15px;
+	font-size: 16px;
 	margin-bottom: 0;
-	font-family: 'HelveticaNeueCyr-Light';
+	font-family: 'Arialregular';
 }
