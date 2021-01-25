@@ -67,7 +67,7 @@ header.fl-hdr{
 .ftr-menu ul li a{
 	color: #fff;
 	font-size: 18px;
-	font-family: 'Arialregular';
+	font-family: 'Roboto-Light';
 }
 .ftr-menu ul li a:hover{
 	color: #0c81a7;
@@ -80,7 +80,7 @@ header.fl-hdr{
 .ftr-des p{
 	font-size: 16px;
 	color: #fff;
-	font-family: 'Arialregular';
+	font-family: 'Roboto-Light';
 	line-height: 1.4;
 }
 
@@ -88,7 +88,7 @@ header.fl-hdr{
 	color: #fff;
 	font-size: 16px;
 	margin-bottom: 0;
-	font-family: 'Arialregular';
+	font-family: 'Roboto-Light';
 }
 
 
