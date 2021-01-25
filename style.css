@@ -421,6 +421,9 @@ span.checkmark:after{
   padding: 27px 55px;
   text-transform: uppercase;
 }
+.agus-pro-item-desc-check-btn button:hover{
+  background: #00b80d;
+}
 
 
 
