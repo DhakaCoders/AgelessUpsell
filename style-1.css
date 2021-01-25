@@ -34,7 +34,8 @@ header.fl-hdr{
 }
 
 .bnr-des h1{
-	margin-bottom: 30px;
+	margin-bottom: 32px;
+	line-height: 1.05;
 }
 
 
@@ -52,7 +53,7 @@ header.fl-hdr{
 
 .fl-ftr{
 	background: #1d2226;
-	padding: 30px 0;
+	padding: 35px 0;
 }
 
 .ftr-menu{
@@ -65,8 +66,8 @@ header.fl-hdr{
 }
 .ftr-menu ul li a{
 	color: #fff;
-	text-transform: uppercase;
 	font-size: 18px;
+	font-family: 'HelveticaNeueCyr-Light';
 }
 .ftr-menu ul li a:hover{
 	color: #0c81a7;
@@ -75,10 +76,13 @@ header.fl-hdr{
 .ftr-des p{
 	font-size: 15px;
 	color: #fff;
+	font-family: 'HelveticaNeueCyr-Light';
+	line-height: 1.4;
 }
 
 .ftr-copywrite p{
 	color: #fff;
 	font-size: 15px;
 	margin-bottom: 0;
+	font-family: 'HelveticaNeueCyr-Light';
 }
