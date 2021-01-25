@@ -1,5 +1,5 @@
 .agus-products{
-	padding-top: 100px;
+	padding-top: 65px;
 }
 .agus-pro-item{
 	padding: 60px 35px 42px 60px;
@@ -56,6 +56,7 @@ span.checkmark:after{
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);*/
     background: url('assets/images/check-img.png');
+    background-repeat: no-repeat!important;
     width: 28px;
     height: 22px;
     content: "";
@@ -133,7 +134,9 @@ span.checkmark:after{
 
 
 
-
+.agus-pro-btn{
+	padding-bottom: 10px;
+}
 .agus-pro-btn-ctlr input[type=submit]{
 	background: #00b80d;
 	color: #fff;
@@ -172,4 +175,134 @@ span.checkmark:after{
 }
 .thisActive .agus-pro-item-desc-check-btn button{
 	background: #00b80d;
+}
+
+.agusn-sec{
+	padding-bottom: 10px;
+}
+
+
+@media(max-width: 1199px){
+	.agus-pro-cntlr{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.agus-pro-item-desc{
+		padding-left: 20px;
+	}
+}
+
+@media(max-width: 991px){
+	.agus-pro-item-img{
+		width: 100%;
+	}
+	.agus-pro-item-desc{
+		width: 100%;
+		padding-left: 0;
+	}
+	.img-center{
+		text-align: center;
+	    padding: 0;
+	    margin: 0;
+	    padding-bottom: 30px;
+	}
+	.agus-pro-item{
+		padding: 60px 20px 42px 30px;
+	}
+	span.pro-hl-btn{
+		left: 50%;
+		transform: translate(-50%,-50%);
+		-webkit-transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+	}
+	.agus-pro-item-desc-prize:before{
+		font-size: 55px;
+	}
+	.agus-pro-item-desc-prize strong{
+		font-size: 55px;
+	}
+	.agus-pro-item-desc-prize sub{
+		font-size: 32px;
+	}
+	.agusn-inr{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media(max-width: 767px){
+	span.pro-hl-btn{
+		font-size: 18px;
+		padding: 14px 18px;
+	}
+	.agus-pro-item-desc-check-btn button{
+		font-size: 18px;
+	}
+	.agus-pro-btn-ctlr input[type=submit]{
+		font-size: 27px;
+	}
+	
+	.agus-pro-item-desc-prize:before {
+	    font-size: 50px;
+	}
+	.agus-pro-item-desc-prize strong{
+		font-size: 50px;
+	}
+	.agus-pro-item-desc-prize sub {
+	    font-size: 30px;
+	    right: 5px;
+	}
+}
+
+@media(max-width: 575px){
+	span.pro-hl-btn {
+	    font-size: 16px;
+	    text-align: center;
+	}
+	.agus-pro-item-desc-prize:before {
+	    font-size: 45px;
+	    left: 10px;
+	}
+	.agus-pro-item-desc-prize strong {
+	    font-size: 45px;
+	}
+	.agus-pro-item-desc-prize sub {
+	    font-size: 28px;
+	    right: 15px;
+	}
+	.agus-pro-item-desc-check-btn button{
+		padding: 22px 45px;
+	}
+	.agus-pro-btn-ctlr input[type=submit] {
+	    font-size: 24px;
+	    height: 74px;
+	}
+}
+
+@media(max-width: 479px){
+	.agus-pro-btn-ctlr input[type=submit]{
+		max-width: 100%;
+		width: 100%;
+	}
+	span.pro-hl-btn {
+	    font-size: 12px;
+	}
+	.agus-pro-item-desc-prize:before {
+	    font-size: 40px;
+	}
+	.agus-pro-item-desc-prize strong {
+	    font-size: 40px;
+	}
+	.agus-pro-item-desc-check-btn button {
+	    padding: 22px 20px;
+	    font-size: 16px;
+	}
+	.agus-pro-btn-ctlr input[type=submit] {
+	    font-size: 22px;
+	    height: 60px;
+	}
+}
+
+@media(max-width: 360px){
+
 }

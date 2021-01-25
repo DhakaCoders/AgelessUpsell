@@ -90,3 +90,11 @@ header.fl-hdr{
 	margin-bottom: 0;
 	font-family: 'Arialregular';
 }
+
+
+@media(max-width: 991px){
+	.agss-sec-1-inr{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}

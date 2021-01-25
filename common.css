@@ -113,6 +113,7 @@ img {
   margin: 0 auto;
   background: #fff;
   margin-top: 32px;
+  margin-bottom: 2px;
   position: relative;
 }
 
@@ -224,6 +225,9 @@ h5{
     .show-md{
       display: block!important;
     }
+    h3 {
+      font-size: 46px;
+    }
     
 }
 @media(max-width: 991px){
@@ -240,7 +244,7 @@ h5{
       font-size: 55px;
     }
     h3 {
-      font-size: 42px;
+      font-size: 40px;
     }
     h4 {
       font-size: 32px;
@@ -269,7 +273,7 @@ h5{
       font-size: 50px;
     }
     h3 {
-      font-size: 38px;
+      font-size: 36px;
     }
     h4 {
       font-size: 30px;
@@ -289,9 +293,24 @@ h5{
       font-size: 45px;
     }
     h3 {
-      font-size: 34px;
+      font-size: 32px;
     }
     h4 {
       font-size: 28px;
     }
 }
+@media(max-width: 479px){
+    h1{
+      font-size: 45px;
+    }
+    h2{
+      font-size: 40px;
+    }
+    h3{
+      font-size: 30px;
+    }
+    h4 {
+      font-size: 25px;
+    }
+}
+
