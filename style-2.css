@@ -2,11 +2,14 @@
 	padding-top: 100px;
 }
 .agus-pro-item{
-	padding: 60px 35px 42px 42px;
+	padding: 60px 35px 42px 60px;
 	position: relative;
 	border: 2px solid #808080;
 	border-radius: 20px;
-	margin-bottom: 60px;
+	margin-bottom: 55px;
+}
+.agus-pro-item:last-child{
+	margin-bottom: 42px;
 }
 span.pro-hl-btn{
 	position: absolute;
@@ -43,15 +46,18 @@ span.checkmark{
 	background: #fff;
 }
 span.checkmark:after{
-	left: 17px;
-    top: 10px;
-    width: 14px;
+	left: 12px;
+    top: 12px;
+    /*width: 14px;
     height: 20px;
     border: solid #00b80d;
     border-width: 0 5px 5px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+    transform: rotate(45deg);*/
+    background: url('assets/images/check-img.png');
+    width: 28px;
+    height: 22px;
     content: "";
     position: absolute;
     opacity: 0;
@@ -65,13 +71,12 @@ span.checkmark:after{
 .agus-pro-item-desc{
 	width: 50%;
 	float: left;
-	padding-left: 55px;
+	padding-left: 40px;
 	text-align: center;
 }
-.agus-pro-item-title{
+.agus-pro-item-desc h3{
 	color: #004370;
 	text-align: center;
-	font-size: 48px;
 	font-family: 'SupriaSans-Bold';
 	line-height: 1.1;
 	margin-bottom: 2px;
@@ -164,4 +169,7 @@ span.checkmark:after{
 .thisActive span.checkmark:after{
 	visibility: visible;
 	opacity: 1;
+}
+.thisActive .agus-pro-item-desc-check-btn button{
+	background: #00b80d;
 }
