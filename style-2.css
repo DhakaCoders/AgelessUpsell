@@ -29,7 +29,8 @@ span.pro-hl-btn{
 	font-family: 'SupriaSans-Bold';
 	padding: 16px 32px;
 	text-transform: uppercase;
-	box-shadow: 
+	-webkit-box-shadow: 0px 0px 16px 6px rgba(236,238,239,0.9); 
+	box-shadow: 0px 0px 16px 6px rgba(236,238,239,0.9);
 }
 span.checkmark{
 	position: absolute;
@@ -152,8 +153,13 @@ span.checkmark:after{
 	cursor: pointer;
 	font-size: 30px;
 	font-family: 'SupriaSans-Bold';
+	-webkit-box-shadow: 0px 0px 16px 6px rgba(237,239,240,0.9); 
+	box-shadow: 0px 0px 16px 6px rgba(237,239,240,0.9);
 }
 
+.agus-pro-btn-ctlr input[type=submit]:hover{
+	background: #03a80e;
+}
 .agus-pro-btn-ctlr input[type=checkbox]{
 	opacity: 0;
 	visibility: hidden;
@@ -223,6 +229,8 @@ span.checkmark:after{
 	}
 	.agus-pro-item-desc-prize sub{
 		font-size: 32px;
+		right: 2px;
+		bottom: 20px;
 	}
 	.agusn-inr{
 		padding-left: 20px;
@@ -244,13 +252,15 @@ span.checkmark:after{
 	
 	.agus-pro-item-desc-prize:before {
 	    font-size: 50px;
+	    left: 10px;
 	}
 	.agus-pro-item-desc-prize strong{
 		font-size: 50px;
 	}
 	.agus-pro-item-desc-prize sub {
 	    font-size: 30px;
-	    right: 5px;
+	    right: 12px;
+	    bottom: 20px;
 	}
 }
 
@@ -261,7 +271,7 @@ span.checkmark:after{
 	}
 	.agus-pro-item-desc-prize:before {
 	    font-size: 45px;
-	    left: 10px;
+	    left: 12px;
 	}
 	.agus-pro-item-desc-prize strong {
 	    font-size: 45px;
@@ -269,6 +279,7 @@ span.checkmark:after{
 	.agus-pro-item-desc-prize sub {
 	    font-size: 28px;
 	    right: 15px;
+	    bottom: 18px;
 	}
 	.agus-pro-item-desc-check-btn button{
 		padding: 22px 45px;
@@ -289,9 +300,14 @@ span.checkmark:after{
 	}
 	.agus-pro-item-desc-prize:before {
 	    font-size: 40px;
+	    left: 16px;
 	}
 	.agus-pro-item-desc-prize strong {
 	    font-size: 40px;
+	}
+	.agus-pro-item-desc-prize sub{
+		right: 17px;
+    	bottom: 16px;
 	}
 	.agus-pro-item-desc-check-btn button {
 	    padding: 22px 20px;
