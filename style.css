@@ -741,7 +741,7 @@ span.checkmark:after{
 }
 @media(max-width: 359px){
   h3{
-    font-size: 23px;
+    font-size: 22px;
   }
   .agus-pro-item-desc-check-btn button {
     padding: 12px 15px;
