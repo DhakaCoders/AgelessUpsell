@@ -639,6 +639,12 @@ span.checkmark:after{
       padding-left: 25px;
       padding-right: 25px;
     }
+    .ftr-des p{
+      font-size: 15.5px;
+    }
+    .ftr-copywrite p{
+      font-size: 15px;
+    }
 
 }
 @media(max-width: 639px){
