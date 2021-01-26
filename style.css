@@ -64,12 +64,14 @@ a,a:hover,a:focus,button:hover,button:focus {
   outline: 0;
 }
 body {
-  background-color: #fff;
-  color: #323232;
-  font-size: 24px;
-  line-height: 29px;
-  font-family: 'SupriaSans-Regular';
-  background: url(assets/images/body-bg.jpg);
+    background-color: #fff;
+    color: #323232;
+    font-size: 24px;
+    line-height: 29px;
+    background-position: left top;
+    font-family: 'SupriaSans-Regular';
+    background: url(assets/images/body-bg.jpg);
+    background-size: cover;
 }
 img {
   max-width: 100%;
