@@ -291,11 +291,11 @@ header.fl-hdr{
 }
 
 .ftr-des{
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0;
+  padding-right: 0;
 }
 .ftr-des p{
-  font-size: 15.5px;
+  font-size: 16px;
   color: #fff;
   font-family: 'Roboto-Light';
   line-height: 1.4;
@@ -361,6 +361,7 @@ span.checkmark:after{
     top: 12px;
     background: url('assets/images/check-img.png');
     background-repeat: no-repeat!important;
+    background-size: 100% 100%!important;
     width: 28px;
     height: 22px;
     content: "";
@@ -520,7 +521,7 @@ span.checkmark:after{
         display: block!important;
     }
     h1{
-      font-size: 62px;
+      font-size: 55px;
     }
     h2{
       font-size: 55px;
@@ -592,7 +593,7 @@ span.checkmark:after{
        margin-bottom: 20px;
     }
     h1{
-      font-size: 56px;
+      font-size: 50px;
     }
     h2{
       font-size: 50px;
@@ -609,8 +610,9 @@ span.checkmark:after{
     }
 
     span.pro-hl-btn{
-      font-size: 18px;
+      font-size: 16px;
       padding: 14px 18px;
+      text-align: center;
     }
     .agus-pro-item-desc-check-btn button{
       font-size: 18px;
@@ -636,7 +638,7 @@ span.checkmark:after{
 
 @media(max-width: 575px){
     h1{
-      font-size: 50px;
+      font-size: 45px;
     }
     h2{
       font-size: 45px;
@@ -649,7 +651,8 @@ span.checkmark:after{
     }
 
     span.pro-hl-btn {
-      font-size: 16px;
+      font-size: 14px;
+      padding: 10px 10px;
       text-align: center;
     }
     .agus-pro-item-desc-prize:before {
@@ -674,13 +677,13 @@ span.checkmark:after{
 }
 @media(max-width: 479px){
     h1{
-      font-size: 45px;
+      font-size: 40px;
     }
     h2{
       font-size: 40px;
     }
     h3{
-      font-size: 30px;
+      font-size: 28px;
     }
     h4 {
       font-size: 25px;
@@ -692,6 +695,7 @@ span.checkmark:after{
     }
     span.pro-hl-btn {
         font-size: 12px;
+        padding: 10px 6px;
     }
     .agus-pro-item-desc-prize:before {
         font-size: 40px;
@@ -701,21 +705,32 @@ span.checkmark:after{
         font-size: 40px;
     }
     .agus-pro-item-desc-prize sub{
-      right: 17px;
-        bottom: 16px;
+      right: 26px;
+      bottom: 16px;
+      font-size: 25px;
     }
     .agus-pro-item-desc-check-btn button {
-        padding: 22px 20px;
-        font-size: 16px;
+      padding: 12px 9px;
+      font-size: 14px;
     }
     .agus-pro-btn-ctlr input[type=submit] {
-        font-size: 22px;
-        height: 60px;
+      font-size: 20px;
+      height: 48px;
+    }
+    span.checkmark{
+      height: 40px;
+      width: 40px;
+    }
+    span.checkmark:after{
+      left: 6px;
+      top: 10px;
+      width: 24px;
+      height: 18px;
     }
 }
 @media(max-width: 359px){
   h3{
-    font-size: 27px;
+    font-size: 23px;
   }
 }
 
