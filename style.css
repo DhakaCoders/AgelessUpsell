@@ -599,7 +599,7 @@ span.checkmark:after{
       font-size: 50px;
     }
     h3 {
-      font-size: 36px;
+      font-size: 38px;
     }
     h4 {
       font-size: 30px;
@@ -633,7 +633,14 @@ span.checkmark:after{
         right: 12px;
         bottom: 20px;
     }
+    .agus-pro-item-desc h3{
+      padding-left: 25px;
+      padding-right: 25px;
+    }
 
+}
+@media(max-width: 639px){
+  
 }
 
 @media(max-width: 575px){
