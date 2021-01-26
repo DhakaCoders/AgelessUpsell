@@ -640,7 +640,10 @@ span.checkmark:after{
 
 }
 @media(max-width: 639px){
-  
+  .agus-pro-item-desc h3{
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 @media(max-width: 575px){
