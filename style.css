@@ -552,7 +552,7 @@ span.checkmark:after{
         padding-bottom: 30px;
     }
     .agus-pro-item{
-      padding: 60px 20px 42px 30px;
+      padding: 60px 30px 42px 30px;
     }
     span.pro-hl-btn{
       left: 50%;
@@ -720,12 +720,13 @@ span.checkmark:after{
       font-size: 25px;
     }
     .agus-pro-item-desc-check-btn button {
-      padding: 12px 9px;
+      padding: 12px 24px;
       font-size: 14px;
     }
     .agus-pro-btn-ctlr input[type=submit] {
       font-size: 20px;
       height: 48px;
+      padding-top: 5px;
     }
     span.checkmark{
       height: 40px;
@@ -741,6 +742,10 @@ span.checkmark:after{
 @media(max-width: 359px){
   h3{
     font-size: 23px;
+  }
+  .agus-pro-item-desc-check-btn button {
+    padding: 12px 15px;
+    font-size: 12px;
   }
 }
 
